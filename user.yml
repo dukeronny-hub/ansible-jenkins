@@ -1,7 +1,6 @@
 - name: Create a user on Linux Servers
   hosts: linux
-
-      tasks:
+  tasks:
 
   - name: Create jenkins user
     user:
